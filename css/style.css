@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+.container{
+    margin: 0 auto;
+    width: 1240px;
+}
+header{
+    background-color: #014E56;
+    display: flex;
+    height: 130px;
+    
+    width: 100%;
+    img{
+        width: 160px;
+        height: 40px;
+        margin-top: 57px;
+        
+        
+    }
+    a{
+        color: white;
+        color: #FFF;
+        font-family: Livvic;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 28px;
+        
+    }
+    .header_a{
+        margin-left: 40px;
+        margin-bottom: 20px;
+    }
+    .header_a_1{
+        margin-left: 80px;
+    }
+    button{
+        background-color: #014E56;
+        color: #FFF;
+        padding: 10px 30px;
+        border: none;
+        border-radius: 20px;
+        border: 1px solid #FFF;
+        margin-left: 600px;
+    }
+}
+.about{
+    height: 400px;
+    background-color: #014E56;
+    
+    
+    img{
+        
+        position: relative;
+        bottom: 20px;
+        left: 1430px;
+    }
+
+}
+.about_container{
+    display: flex;
+    flex-direction: row;
+    padding-top: 120px;
+    
+
+}
+.about h1{
+    width: 350px;
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100px;
+    display: inline-block;
+}
+.about p{
+    width: 730px;
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    display: inline-block;
+    margin-left: 50px;
+}
+.meet{
+    height: 1000px;
+    background-color: #004047;
+    h1{
+    width: 920px;
+    color: #FFF;
+    text-align: center;
+    font-family: Livvic;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px; 
+    margin-left: 200px;
+    padding: 50px 0px;
+    }
+}
+.id_meet{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 350px;
+    height: 253px;
+    flex-shrink: 0;
+    background: #012F34;
+    margin: 30px;
+    .id_img1{
+        padding: 10px;
+    }
+    h4{
+    width: 302px;
+    color: #79C8C7;
+    text-align: center;
+    font-family: Livvic;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; 
+    }
+    p{
+    width: 302px;
+    color: #FFF;
+    text-align: center;
+    font-family: Livvic;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 25px;
+        }
+    .id_img2{
+        position: relative;
+        top: 50px;
+    }
+    }
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+.clients{
+    background-color:#012F34;
+    display: flex;
+    padding-bottom: 150px;
+    .client_img{
+    width: 200px;
+    height: 200px;
+    
+    }
+    h1{
+    width: 920px;
+    color: #FFF;
+    text-align: center;
+    font-family: Livvic;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    margin-top: 150px;
+    margin-left: 100px;
+    }
+    ul{
+        display: flex;
+        margin-top: 100px;
+        justify-content: space-around;
+    .ul_li{
+        color:#FFF ;
+    } 
+    }
+}
+.ready{
+    height:  200px;
+    background: #F67E7E;
+    display: flex;
+    .ready_container{
+        display: flex;
+    }
+    img{
+        margin-top: 50px;
+        width: 200px;
+        height: 144px;
+    }
+    h1{
+    width: 500px;
+    height: 50px;
+    color: #012F34;
+    font-family: Livvic;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    padding: 75px 0px;
+    margin-left: 100px;
+    margin-top: 20px;
+   }
+    button{
+        width: 153px;
+        height:50px;
+        background-color: #F67E7E;
+        color: #000;
+        padding: 10px 30px;
+        border: none;
+        border-radius: 20px;
+        border: 1px solid #000;
+        margin-left: 200px;
+        margin-top: 100px;
+    }
+}
+.footer{
+    height: 180px;
+    background-color: #002529;
+    
+}
+.footer_container{
+    display: flex;
+}
+.myteam{
+    width: 160px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+   
+    a{
+        color: white;
+    }
+    .a2{
+       margin-left: 40px; 
+    }
+}
+.info{
+    margin-top: 50px;
+    margin-left: 150px;
+    p{
+        color: white;
+    }
+}
+.social_media{
+    margin-top: 50px;
+    margin-left: 350px;
+    img{
+        margin-left: 100px;
+        margin-bottom: 50px;
+    }
+    p{
+        color: white;
+        
+    }
+}
